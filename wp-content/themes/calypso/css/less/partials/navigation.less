@@ -32,32 +32,110 @@
 }
 
 /* Navigation Menu */
-.main-navigation {
+#site-navigation {
 	margin-top: 24px;
 	margin-top: 1.5rem;
 	text-align: center;
 }
-.main-navigation li {
+#site-navigation li {
 	margin-top: 24px;
 	margin-top: 1.5rem;
 	font-size: @base-size;
 	font-size: 1rem;
 	line-height: 1.5;
 }
-.main-navigation a {
+#site-navigation a {
 	color: #5e5e5e;
 }
-.main-navigation a:hover {
+#site-navigation a:hover {
 	color: #21759b;
 }
-.main-navigation ul.nav-menu,
-.main-navigation div.nav-menu > ul {
+#site-navigation ul.nav-menu,
+#site-navigation div.nav-menu > ul {
 	display: none;
 }
-.main-navigation ul.nav-menu.toggled-on,
+#site-navigation ul.nav-menu.toggled-on,
 .menu-toggle {
 	display: inline-block;
 }
+
+/* ! navbar css I created  */
+
+.home-btn a, .home-btn a:hover, .home-btn a:focus, 
+.portfolio-btn a, .portfolio-btn a:hover, .portfolio-btn a:focus, 
+.ventures-btn a, .ventures-btn a:hover, .ventures-btn a:focus, 
+.contact-btn a, .contact-btn a:hover, .contact-btn a:focus, 
+.blog-btn a, .blog-btn a:hover, .blog-btn a:focus {
+background-repeat:no-repeat;
+background-position:0.5em 0.5em;
+padding:10px 10px 10px 10px;
+width:200px;
+height:	38px;
+float: left;
+display: block;
+}
+.home-btn a  {
+background-image:url('http://www.denisestrattondesign.com/images/btn-home.png');
+}
+
+.home-btn a:hover {
+background-image:url('http://www.denisestrattondesign.com/images/btn-home-hover.png');
+}
+
+.home-btn a:active  {
+background-image:url('http://www.denisestrattondesign.com/images/btn-home-active.png');
+}
+
+.portfolio-btn a  {
+background-image:url('http://www.denisestrattondesign.com/images/btn-portfolio.png');
+}
+
+.portfolio-btn a:hover, .portfolio-btn:focus  {
+background-image:url('http://www.denisestrattondesign.com/images/btn-portfolio-hover.png');
+}
+
+.portfolio-btn a:active  {
+background-image:url('http://www.denisestrattondesign.com/images/btn-portfolio-active.png');
+}
+
+.ventures-btn a  {
+background-image:url('http://www.denisestrattondesign.com/images/btn-ventures.png');
+}
+
+.ventures-btn a:hover, .ventures-btn:focus  {
+background-image:url('http://www.denisestrattondesign.com/images/btn-ventures-hover.png');
+}
+
+.ventures-btn a:active  {
+background-image:url('http://www.denisestrattondesign.com/images/btn-ventures-active.png');
+}
+
+.contact-btn a  {
+background-image:url('http://www.denisestrattondesign.com/images/btn-contact.png');
+}
+
+.contact-btn a:hover, .contact-btn:focus  {
+background-image:url('http://www.denisestrattondesign.com/images/btn-contact-hover.png');
+}
+
+.contact-btn a:active  {
+background-image:url('http://www.denisestrattondesign.com/images/btn-contact-active.png');
+}
+
+.blog-btn a  {
+background-image:url('http://www.denisestrattondesign.com/images/btn-blog.png');
+}
+
+.blog-btn a:hover, .blog-btn:focus  {
+background-image:url('http://www.denisestrattondesign.com/images/btn-blog-hover.png');
+}
+
+.blog-btn a:active  {
+background-image:url('http://www.denisestrattondesign.com/images/btn-blog-active.png');
+}
+
+
+
 
 /* Banner */
 section[role="banner"] {

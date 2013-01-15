@@ -1,57 +1,43 @@
-<?php
-/**
- * The Header for our theme.
- *
- * Displays all of the <head> section and everything up till <div id="main">
- *
- * @package WordPress
- * @subpackage Twenty_Twelve
- * @since Twenty Twelve 1.0
- */
-?><!DOCTYPE html>
-<!--[if IE 7]>
-<html class="ie ie7" <?php language_attributes(); ?>>
-<![endif]-->
+<!DOCTYPE html><!--[if IE 7]>
+<html class="ie ie7">
+ <head>lang="en-US"  <meta charset="&lt;style style=" display:none "=" " data-xeditor="ss " data-xeditor-pi-id="UTF-8 " data-xeditor-translated="true " xeditorid="xid3 "/><meta name="viewport " content="width=device-width "/><title>&lt;style style="display:none " data-xeditor="ss " data-xeditor-pi-id="Denise Stratton Design | Just another WordPress site " data-xeditor-translated="true "&gt;&lt;?php wp_title( '|', true, 'right' ); ?&gt;&lt;/style&gt;</title></head><body>&gt;
+
 <!--[if IE 8]>
-<html class="ie ie8" <?php language_attributes(); ?>>
-<![endif]-->
-<!--[if !(IE 7) | !(IE 8)  ]><!-->
-<html <?php language_attributes(); ?>>
+<html class="ie ie8 " <style style="display:none " data-xeditor="ss " data-xeditor-pi-id="lang="en-US" " data-xeditor-translated="true ">lang="en-US"</style>>
+<![endif]--><!--[if !(IE 7) | !(IE 8)  ]><!-->
 <!--<![endif]-->
-<head>
-<meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta name="viewport" content="width=device-width" />
-<title><?php wp_title( '|', true, 'right' ); ?></title>
-<link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
+
 <!--[if lt IE 9]>
-<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
+  <script src="<style style=" display:none " data-xeditor="ss " data-xeditor-pi-id="http://www.dsd.dev/wp-content/themes/calypso " data-xeditor-translated="true ">http://www.dsd.dev/wp-content/themes/calypso</style>/js/html5.js" type="text/javascript"></script>
+ <![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Denise Stratton Design » Feed" href="http://www.dsd.dev/feed/">
+<link rel="alternate" type="application/rss+xml" title="Denise Stratton Design » Comments Feed" href="http://www.dsd.dev/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Denise Stratton Design » Home Comments Feed" href="http://www.dsd.dev/home/feed/">
+<link rel="stylesheet" id="calypso-fonts-css" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&amp;subset=latin,latin-ext" type="text/css" media="all">
+<link rel="stylesheet" id="calypso-style-css" href="http://www.dsd.dev/wp-content/themes/calypso/style.css?ver=3.5" type="text/css" media="all">
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='calypso-ie-css'  href='http://www.dsd.dev/wp-content/themes/calypso/css/ie.css?ver=20121010' type='text/css' media='all' />
 <![endif]-->
-<?php wp_head(); ?>
-</head>
+<script type="text/javascript" src="http://www.dsd.dev/wp-includes/js/comment-reply.min.js?ver=3.5"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.dsd.dev/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.dsd.dev/wp-includes/wlwmanifest.xml"> 
+<link rel="next" title="Portfolio" href="http://www.dsd.dev/portfolio/">
 
-<body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
-	<header id="masthead" class="site-header" role="banner">
-		<hgroup>
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-		</hgroup>
-		
-		<?php $header_image = get_header_image();
-		if ( ! empty( $header_image ) ) : ?>
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( $header_image ); ?>" class="header-image" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" /></a>		
-		
+<link rel="canonical" href="http://www.dsd.dev/">
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<h3 class="menu-toggle"><?php _e( 'Menu', 'calypso' ); ?></h3>
-			<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'calypso' ); ?>"><?php _e( 'Skip to content', 'calypso' ); ?></a>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
+ <div id="page" class="hfeed site">
+  <header id="masthead" class="site-header" role="banner">
 
-
-		<?php endif; ?>
-	</header><!-- #masthead -->
-
-	<div id="main" class="wrapper">
+  <nav id="site-navigation" class="main-navigation" role="navigation">
+     
+   <ul class="cssmenu">
+	<li class="home"><a href="#" class="selected" title="Home"><span class="displace">Home</span></a></li>
+	<li class="blog"><a href="#" title="Blog"><span class="displace">Blog</span></a></li>
+	<li class="contact"><a href="#" title="Contact"><span class="displace">Contact</span></a></li>
+</ul>
+     
+</nav>
+   <!-- #site-navigation -->
+   </header>
+  <div id="main" class="wrapper"></div>
