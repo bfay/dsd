@@ -31,10 +31,12 @@
 
   <nav id="site-navigation" class="main-navigation" role="navigation">
      
-   <ul class="cssmenu">
-	<li class="home"><a href="#" class="selected" title="Home"><span class="displace">Home</span></a></li>
-	<li class="blog"><a href="#" title="Blog"><span class="displace">Blog</span></a></li>
-	<li class="contact"><a href="#" title="Contact"><span class="displace">Contact</span></a></li>
+ <ul class="cssmenu">
+	<li class="home"><a href="/index.php" class="active" title="Home"><span class="displace">Home</span></a></li>
+	<li class="portfolio"><a href="/portfolio" title="Portfolio"><span class="displace">Portfolio</span></a></li>
+	<li class="ventures"><a href="/ventures" title="Ventures"><span class="displace">Ventures</span></a></li>
+	<li class="contact"><a href="/contact" title="Contact"><span class="displace">Contact</span></a></li>
+	<li class="blog"><a href="/blog" title="Blog"><span class="displace">Blog</span></a></li>
 </ul>
      
 </nav>

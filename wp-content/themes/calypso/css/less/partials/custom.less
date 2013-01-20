@@ -18,8 +18,10 @@ ul.cssmenu li {
 ul.cssmenu li a {
 	display: block;
 	width: 150px;
-	height: 44px;
-	background: url('http://www.denisestrattondesign.com/images/sprite.gif');
+	height: 31px;
+	margin: 0;
+	padding: 0;
+	background: url('http://www.denisestrattondesign.com/images/navbar-single.png');
 	}
 
 /*
@@ -29,55 +31,95 @@ ul.cssmenu li.home a {
 	background-position: 0 0;
 	}
 
-ul.cssmenu li.blog a {
+ul.cssmenu li.portfolio a {
 	background-position: -150px 0;
 	}
-
-ul.cssmenu li.contact a {
+	
+ul.cssmenu li.ventures a {
 	background-position: -300px 0;
+	}	
+	
+ul.cssmenu li.contact a {
+	background-position: -450px 0;
 	}
+
+ul.cssmenu li.blog a {
+	background-position: -600px 0;
+	}
+
+
 
 /*
 *	Hover Links
 */
+
 ul.cssmenu li.home a:hover {
-	background-position: 0 -44px;
+	background-position: 0 -31px;
+	}
+
+ul.cssmenu li.portfolio a:hover {
+	background-position: -150px -31px;
+	}
+	
+ul.cssmenu li.ventures a:hover {
+	background-position: -300px -31px;
+	}	
+	
+ul.cssmenu li.contact a:hover {
+	background-position: -450px -31px;
 	}
 
 ul.cssmenu li.blog a:hover {
-	background-position: -150px -44px;
+	background-position: -600px -31px;
 	}
 
-ul.cssmenu li.contact a:hover {
-	background-position: -300px -44px;
-	}
+
 
 /*
 *	Clicked Links
 */
 ul.cssmenu li.home a:active {
-	background-position: 0 -88px;
+	background-position: 0 -62px;
+	}
+
+ul.cssmenu li.portfolio a:active {
+	background-position: -150px -62px;
+	}
+	
+ul.cssmenu li.ventures a:active {
+	background-position: -300px -62px;
+	}	
+	
+ul.cssmenu li.contact a:active {
+	background-position: -450px -62px;
 	}
 
 ul.cssmenu li.blog a:active {
-	background-position: -150px -88px;
+	background-position: -600px -62px;
 	}
 
-ul.cssmenu li.contact a:active {
-	background-position: -300px -88px;
-	}
+
 
 /*
 *	Selected/Active Links
 */
-ul.cssmenu li.home a.selected {
-	background-position: 0 -132px;
+
+ul.cssmenu li.home a:selected {
+	background-position: 0 -62px;
 	}
 
-ul.cssmenu li.blog a.selected {
-	background-position: -150px -132px;
+ul.cssmenu li.portfolio a:selected {
+	background-position: -150px -62px;
+	}
+	
+ul.cssmenu li.ventures a:selected {
+	background-position: -300px -62px;
+	}	
+	
+ul.cssmenu li.contact a:selected {
+	background-position: -450px -62px;
 	}
 
-ul.cssmenu li.contact a.selected {
-	background-position: -300px -132px;
+ul.cssmenu li.blog a:selected {
+	background-position: -600px -62px;
 	}
